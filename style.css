@@ -1,0 +1,36 @@
+#body_background {
+    background: radial-gradient(lime 0%,cyan 50%,yellow 100%);
+}
+
+header {
+    background-color: red;
+    font-size: 50px;
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    color: blue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+button {
+    background-color: red;
+    font-size: 50px;
+    border-radius: 20px;
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    border-width: 0px;
+    box-shadow: 5px 5px 5px black;
+    color: blue;
+}
+
+button:hover {
+    transition: 1s;
+    background-color: lime;
+}
+
+Canvas {
+    margin-top: 200px;
+    border-radius: 10px;
+    border: 5px solid red;
+    box-shadow: 5px 5px 5px black;
+}
